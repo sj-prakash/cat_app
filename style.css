@@ -1,0 +1,76 @@
+body {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  #new-cat-btn {
+    background-color: #FF6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #new-cat-btn:hover {
+    background-color: #FF9966;
+  }
+  
+  #cat-image {
+    margin-bottom: 100px;
+  }
+  
+  #cat-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #new-dog-btn {
+    background-color: #FF6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #new-dog-btn:hover {
+    background-color: #FF9966;
+  }
+  
+  #dog-image {
+    margin-bottom: 50px;
+  }
+  
+  #dog-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+  }
+  
